@@ -1,0 +1,6 @@
+#print("The","rain","in","Spain",sep='_')
+#print('',"is","mainly",sep='**')
+#print("on","the",'',sep='_')
+#print('plain','',sep="!!!")
+print("The","rain","in","Spain",sep='_',end=''), print('',"is","mainly",'',sep='**',end=''), print("on","the",'',sep='_',end=''), print('plain',end="!!!")
+#print("The","rain","in","Spain",sep='_','',"is","mainly",sep='**',"on","the",'',sep='_','plain',end="!!!")
