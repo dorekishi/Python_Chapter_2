@@ -1,0 +1,31 @@
+#1
+places_to_visit=['italy',
+                 'vienna',
+                 'australia',
+                 'new zealand',
+                 'paris']
+#2
+print(places_to_visit)
+#3
+print(f'\n{sorted(places_to_visit)}')
+#4
+print(f'\n{places_to_visit}')
+#5
+#sorted(places_to_visit)
+#places_to_visit.sort(reverse=True)
+#places_to_visit.sort(reverse=True)
+#print(f'\n{sorted(places_to_visit).sort(reverse=True)}')
+print(f'\n{sorted(places_to_visit,reverse=True)}')
+print(f'\n{places_to_visit}')
+#6
+places_to_visit.reverse()
+print(f'\n{places_to_visit}')
+#7
+places_to_visit.reverse()
+print(f'\n{places_to_visit}')
+#8
+places_to_visit.sort()
+print(f'\n{places_to_visit}')
+#9
+places_to_visit.sort(reverse=True)
+print(f'\n{places_to_visit}')
