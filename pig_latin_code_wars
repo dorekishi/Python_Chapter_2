@@ -1,0 +1,35 @@
+def pig_it(text):
+    words_listed = text.split()  # words are listed
+
+    new_sentence_list = []
+
+    for word in words_listed:
+
+        if word != '!':
+
+            if word != '?':
+
+                letters_listed = []
+
+                for letter in word:
+                    letters_listed.append(letter)
+
+                first_letter_of_word = letters_listed.pop(0)
+
+                letters_listed.append(first_letter_of_word)
+
+                letters_listed.append('ay')
+
+                new_word = ''.join(letters_listed)
+
+                new_sentence_list.append(new_word)
+
+        if word == '!':
+            new_sentence_list.append('!')
+
+        if word == '?':
+            new_sentence_list.append('?')
+
+    return ' '.join(new_sentence_list)
+
+pig_it('Pig latin is cool')
